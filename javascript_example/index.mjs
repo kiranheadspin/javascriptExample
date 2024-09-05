@@ -2,9 +2,9 @@ import { remote } from 'webdriverio';
 
 // HeadSpin WebDriver URLs for Android and iOS devices
 const androidWdUrl =
-    'https://dev-us-pao-5.headspin.io:7040/v0/127ff752df2d45a1b6b0d8cfabf11ced/wd/hub';
+    'https://dev-us-pao-5.headspin.io:7040/v0/{token}/wd/hub';
 const iosWdUrl =
-    'https://dev-hk-hkg-1.headspin.io:7003/v0/127ff752df2d45a1b6b0d8cfabf11ced/wd/hub';
+    'https://dev-hk-hkg-1.headspin.io:7003/v0/{token}/wd/hub';
 
 const androidCapabilities = {
     platformName: 'Android',
